@@ -1,0 +1,8 @@
+#cloud-config
+users:
+- name: ubuntu
+  lock_passwd: False
+  plain_text_passwd: ubuntu
+  ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsuCBcxvYSGrHP+1h+qT+W+uuVflgyQlkKmC6fpUoUVYNPRaCfa5GFKUuKJ+uXZw6HUZDEZP3J162hQ/AHlvQVYRCBdpx+DA6fnb2VBnPkObYVqOAW/fFoY3xOUCHDolwm8OscgQOByK3IOWD1BIZiCuYd/Tc/XwQVAHl8sjzcVm1lIhL4qRGeiDGInxcagErzwSsuxTBeuPp9jXhTI/ZU94KOFft7b6+hd7xIL7tsJYD4PJKL/MVGFL/AcJSWTx6/60jeAwdhdxAPhrfK/YL8uCq5zrxqK1QSZzYmfDTegsSP/olL/lqZbZlBqdVf6Pi80v4POXEdE7x6V89tzZawaUDe+CsZ57tRqHVmDcQnKRwsY4w0liiVXWfdRMYshwOpB/VsoXf68xS+ZORk7gLRzUwD/SQfIBbAvipJSSHRC1066BHRTuk8vcSv0d16ZGYq0I9SI3sqVrlDTY9AKJ97fv8ymRlAaiUO8aQtJPHwCnQYD9Sa+nthUxdEnpBc5+0= nmm@localhost.localdomain
+
